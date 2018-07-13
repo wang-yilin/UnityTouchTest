@@ -1,0 +1,46 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "baby",
+      "display_name": "Baby",
+      "img_src": "/Assets/Sprites/icon01.png"
+    },
+    {
+      "id": 2,
+      "name": "whale",
+      "display_name": "Whale",
+      "img_src": "/Assets/Sprites/icon02.png"
+    },
+    {
+      "id": 3,
+      "name": "lemur",
+      "display_name": "Lemur",
+      "img_src": "/Assets/Sprites/icon03.png"
+    },
+    {
+      "id": 4,
+      "name": "bird",
+      "display_name": "Bird",
+      "img_src": "/Assets/Sprites/icon04.png"
+    },
+    {
+      "id": 5,
+      "name": "noodle",
+      "display_name": "Noodle",
+      "img_src": "/Assets/Sprites/icon05.png"
+    },
+    {
+      "id": 6,
+      "name": "rock",
+      "display_name": "Rock",
+      "img_src": "/Assets/Sprites/icon06.png"
+    },
+    {
+      "id": 7,
+      "name": "bee",
+      "display_name": "Bee",
+      "img_src": "/Assets/Sprites/icon07.png"
+    }
+  ]
+}
