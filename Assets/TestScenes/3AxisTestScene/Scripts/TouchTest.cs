@@ -17,7 +17,7 @@ public class TouchTest : MonoBehaviour
     private Vector2 touchesRaw;
     private Vector2 touchesLast;
 
-    // Stores history of toucheration values, subjected to low-pass filter
+    // Stores history of touch values, subjected to low-pass filter
     List<TouchDataPoint> touch_buffer;
 
     public const float ALPHA = 0.15f; // low-pass alpha
@@ -35,7 +35,7 @@ public class TouchTest : MonoBehaviour
 
     public class TouchDataPoint
     {
-        //class for storing an toucheration value and its time of measurement
+        //class for storing an touch value and its time of measurement
 
         public float t { get; set; } // stores time relative to current time 
         public float x { get; set; }
@@ -307,7 +307,7 @@ public class TouchTest : MonoBehaviour
                                             ALPHA * touches + (1 - ALPHA) *
                                             touch_smoothed.toVector());
 
-        // Add this toucheration to our history buffer
+        // Add this touch to our history buffer
         touch_buffer.Add(new TouchDataPoint(touch_smoothed));
 
 
