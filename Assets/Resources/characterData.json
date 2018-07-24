@@ -4,43 +4,85 @@
       "id": 1,
       "name": "baby",
       "display_name": "Baby",
-      "img_src": "/Assets/Sprites/icon01.png"
-    },
-    {
-      "id": 2,
-      "name": "whale",
-      "display_name": "Whale",
       "img_src": "/Assets/Sprites/icon02.png"
     },
     {
-      "id": 3,
-      "name": "lemur",
-      "display_name": "Lemur",
+      "id": 2,
+      "name": "anteater",
+      "display_name": "Anteater",
       "img_src": "/Assets/Sprites/icon03.png"
     },
     {
-      "id": 4,
-      "name": "bird",
-      "display_name": "Bird",
+      "id": 3,
+      "name": "goldenRetriever",
+      "display_name": "goldenRetriever",
       "img_src": "/Assets/Sprites/icon04.png"
     },
     {
-      "id": 5,
-      "name": "noodle",
-      "display_name": "Noodle",
+      "id": 4,
+      "name": "flamingo",
+      "display_name": "flamingo",
       "img_src": "/Assets/Sprites/icon05.png"
     },
     {
-      "id": 6,
-      "name": "rock",
-      "display_name": "Rock",
+      "id": 5,
+      "name": "zebra",
+      "display_name": "zebra",
       "img_src": "/Assets/Sprites/icon06.png"
     },
     {
-      "id": 7,
-      "name": "bee",
-      "display_name": "Bee",
+      "id": 6,
+      "name": "lynx",
+      "display_name": "lynx",
       "img_src": "/Assets/Sprites/icon07.png"
+    },
+    {
+      "id": 7,
+      "name": "pig",
+      "display_name": "pig",
+      "img_src": "/Assets/Sprites/icon08.png"
+    },
+    {
+      "id": 8,
+      "name": "snake",
+      "display_name": "snake",
+      "img_src": "/Assets/Sprites/icon09.png"
+    },
+    {
+      "id": 9,
+      "name": "rooster",
+      "display_name": "rooster",
+      "img_src": "/Assets/Sprites/icon10.png"
+    },
+    {
+      "id": 10,
+      "name": "raccoon",
+      "display_name": "raccoon",
+      "img_src": "/Assets/Sprites/icon11.png"
+    },
+    {
+      "id": 11,
+      "name": "pony",
+      "display_name": "pony",
+      "img_src": "/Assets/Sprites/icon12.png"
+    },
+    {
+      "id": 12,
+      "name": "duke",
+      "display_name": "duke",
+      "img_src": "/Assets/Sprites/icon13.png"
+    },
+    {
+      "id": 13,
+      "name": "giraffe",
+      "display_name": "giraffe",
+      "img_src": "/Assets/Sprites/icon14.png"
+    },
+    {
+      "id": 14,
+      "name": "elephant",
+      "display_name": "elephant",
+      "img_src": "/Assets/Sprites/icon15.png"
     }
   ]
 }

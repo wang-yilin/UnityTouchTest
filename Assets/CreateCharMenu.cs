@@ -11,6 +11,8 @@ public class CreateCharMenu : MonoBehaviour {
     public GameObject ScrollBar;
     public GameObject ModeText;
 
+
+
     int w = Screen.width;
     int h = Screen.height;
 
@@ -35,10 +37,14 @@ public class CreateCharMenu : MonoBehaviour {
 
 
 
+
+
+
+
         for (int i = 0; i < characters.Length; i++)
         {
             int id = i + 1;
-
+            string name = characters[i].name;
 
             // Ensure characters in sequential  order by id
             if (characters[i].id != id)
@@ -70,7 +76,7 @@ public class CreateCharMenu : MonoBehaviour {
 
             // Create event listener for character selection
             newButton.GetComponent<Button>().onClick.AddListener( delegate { 
-                changeCharacter(id); 
+                changeCharacter(name); 
             });
 
         }
@@ -89,11 +95,11 @@ public class CreateCharMenu : MonoBehaviour {
         charData = JsonUtility.FromJson<CharData>(dataAsJson);
     }
 
-    void changeCharacter (int id) {
+    void changeCharacter (string name) {
         if (active)
         {
             SendMessageUpwards("closeMenu");
-            GameManager.SendMessage("SetMode", id);
+            GameManager.SendMessage("SetMode", name);
             active = false;
         }
     }
