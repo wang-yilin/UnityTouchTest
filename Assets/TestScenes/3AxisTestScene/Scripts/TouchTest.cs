@@ -289,7 +289,8 @@ public class TouchTest : MonoBehaviour
         touches = touchesRaw - touchesLast; // the displacement between the current and the last touch coordinates
         touchesLast = touchesRaw;
 
-        report = "Coordinates: " + touches + "\ntouch count: " + Input.touchCount + "\n";
+        report = "Coordinates: " + touches + "\ntouch count: " 
+            + Input.touchCount + "\npressure support" + Input.touchPressureSupported + "\n";
 
         // Initialize low pass to first point
         if (touch_smoothed == null)
@@ -529,7 +530,6 @@ public class TouchTest : MonoBehaviour
 
                 writeToFile(patterns[patternIndex - 1].trials.Last(), "pattern" + patternIndex + "_" + (patterns[patternIndex - 1].trials.Count - 1) + ".csv");
                 writeToFile(patterns[patternIndex - 1].data, "pattern" + patternIndex + "_" + (patterns[patternIndex - 1].trials.Count - 1) + "d.csv");
-
             }
         }
     }
